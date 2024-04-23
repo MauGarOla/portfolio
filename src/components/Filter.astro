@@ -1,6 +1,21 @@
 ---
 
 ---
-<button class={`${Astro.props.class} neumorphism-flat px-4 py-2 rounded-full flex gap-2`}>
+<button class={`${Astro.props.class} filter neumorphism-flat px-4 py-2 rounded-full flex gap-2`}>
     <slot/>
 </button>
+<style>
+    .filter {
+        transition: all 0.3s ease-out;
+    }
+    .filter:hover {
+        box-shadow:  1px 1px 2px #0f4a52,
+					-1px -1px 2px #17707a;
+        transform: scale(.97);
+    }
+    .filter:active {
+        box-shadow: inset 4px 4px 8px #0f4a52,
+					inset -4px -4px 8px #17707a;
+        transform: scale(.94);
+    }
+</style>
