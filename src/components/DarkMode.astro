@@ -1,0 +1,17 @@
+---
+import Moon from './logos/Moon.astro'
+import Sun from './logos/Sun.astro'
+---
+<label for="darkModeToggle" class="flex items-center cursor-pointer">
+    <h3 class="mr-3 text-site-200">
+        <Sun />
+    </h3>
+    <section class="relative">
+      <input id="darkModeToggle" type="checkbox" class="hidden" />
+      <figure class="toggle__line w-10 h-4 neumorphism-pressed-toggle bg-site-300 rounded-full"></figure>
+      <figure class="toggle__dot absolute size-6 bg-site-200 neumorphism-flat-toggle rounded-full left-0 -top-1"></figure>
+    </section>
+    <h3 class="ml-3">
+        <Moon />
+    </h3>
+  </label>

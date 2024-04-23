@@ -1,54 +1,67 @@
-# Astro Starter Kit: Basics
+# Portfolio README
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my programming portfolio! Here you'll find a collection of projects that showcase my skills and experience as a programmer. Feel free to explore and reach out if you have any questions or opportunities for collaboration.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Projects
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Project 1: [Project Name]
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Description:** Brief description of the project.
+- **Technologies Used:** List of technologies/languages/frameworks used.
+- **Links:** GitHub repository, live demo (if applicable).
 
-## 🚀 Project Structure
+### Project 2: [Project Name]
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Description:** Brief description of the project.
+- **Technologies Used:** List of technologies/languages/frameworks used.
+- **Links:** GitHub repository, live demo (if applicable).
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Project 3: [Project Name]
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Description:** Brief description of the project.
+- **Technologies Used:** List of technologies/languages/frameworks used.
+- **Links:** GitHub repository, live demo (if applicable).
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Skills
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Programming Languages:** List of languages (e.g., JavaScript, Python, Java).
+- **Frameworks/Libraries:** List of frameworks or libraries (e.g., React, Node.js, Django).
+- **Tools/Technologies:** List of tools and technologies (e.g., Git, Docker, AWS).
 
-## 🧞 Commands
+## Education
 
-All commands are run from the root of the project, from a terminal:
+- **Degree:** Your degree (e.g., Bachelor of Computer Science).
+- **Institution:** Name of your university.
+- **Year:** Year of graduation.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Experience
 
-## 👀 Want to learn more?
+- **Company:** Name of the company.
+- **Position:** Your position.
+- **Description:** Brief description of your responsibilities and achievements.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Contact
+
+- **Email:** Your email address.
+- **LinkedIn:** [Your LinkedIn profile](https://www.linkedin.com/your_profile)
+
+## About Me
+
+A passionate programmer with a keen interest in [mention any specific interests or areas of focus]. I enjoy tackling challenging problems and continuously learning new technologies to expand my skill set.
+
+Feel free to connect with me for any inquiries, collaborations, or just to say hello!
+
+---
+
+*This README.md template was created by Mauricio G. Olagaray. Feel free to use and modify it for your own portfolio.*
+
+## To Do
+
+- Repair the contacts to make everything more useful
+- Make everything work
+    - https://flowbite.com/docs/customize/dark-mode/
+    - https://docs.astro.build/es/guides/content-collections/#:~:text=Las%20colecciones%20ayudan%20a%20organizar,TypeScript%20para%20todo%20tu%20contenido.
+    - https://docs.astro.build/es/recipes/i18n/
+- Caps in prefooter
+
+
