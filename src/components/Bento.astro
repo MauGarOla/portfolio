@@ -2,14 +2,51 @@
 import BentoItem from './BentoItem.astro'
 ---
 <h1 class="neumorphism-pressed-text-sm text-6xl text-center md:text-left mt-24 font-bold text-site-300">About me</h1>
-<section class="bento w-full grid grid-cols-12 gap-6 mx-auto mt-12 text-lg md:text-3xl">
-    <BentoItem class="col-span-8 row-span-2 bg-site-300 text-site-600" title="Meditation"/>
-    <BentoItem class="col-span-4 row-span-3 bg-site-200 text-site-800" title="Climbing"/>
-    <BentoItem class="col-span-4 row-span-1 bg-site-600 text-site-100" title="Traveling"/>
-    <BentoItem class="col-span-4 row-span-2 bg-site-100 text-site-600" title="Reading"/>
-    <BentoItem class="col-span-4 row-span-4 bg-site-800 text-site-300" title="Music"/>
-    <BentoItem class="col-span-4 row-span-1 bg-site-800 text-site-300" title="Birthday"/>
-    <BentoItem class="col-span-8 row-span-2 bg-site-600 text-site-100" title="Organiced"/>
-    <BentoItem class="col-span-3 row-span-1 bg-site-200 text-site-800" title="Yoga"/>
-    <BentoItem class="col-span-5 row-span-1 bg-site-300 text-site-600" title="Learning"/>
+<section class="bento w-full grid grid-cols-12 gap-6 mx-auto mt-12 sm:text-lg lg:text-3xl">
+    <BentoItem class="col-span-5 row-span-1 bg-site-300 text-site-600 lg:col-span-8 lg:row-span-1" title="Yoga">
+        <p slot="content">
+            Yoga provides balance and mindfulness, connecting body, mind, and spirit in daily practice.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-7 row-span-1 bg-site-200 text-site-800 lg:col-span-4 lg:row-span-2" title="Climbing">
+        <p slot="content">
+            Passionate about climbing, I find strength and growth in pushing my limits amidst nature's beauty.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-7 row-span-1 bg-site-600 text-site-100 lg:col-span-4 lg:row-span-2" title="Traveling">
+        <p slot="content">
+            Inspired by exploration, travel opens my mind to new cultures and experiences, creating cherished memories.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-5 row-span-1 bg-site-800 text-site-300 lg:bg-site-100 lg:text-site-600 lg:col-span-4 lg:row-span-3" title="Music">
+        <p slot="content">
+            A universal language, music fuels my emotions, bringing joy, comfort, and inspiration.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-12 row-span-1 bg-site-100 text-site-600 lg:bg-site-800 lg:text-site-300 lg:col-span-4 lg:row-span-2" title="Reading">
+        <p slot="content">
+            Through books, I explore worlds of knowledge and imagination, fostering continuous growth and reflection.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-4 row-span-1 bg-site-800 text-site-300 lg:col-span-4 lg:row-span-3" title="Birthday">
+        <p slot="content">
+            I was born on the morning of March 14, 1999.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-8 row-span-1 bg-site-600 text-site-100 lg:col-span-8 lg:row-span-1 " title="Organiced">
+        <p slot="content">
+            Organization empowers productivity and clarity, reducing stress and enabling focus on priorities.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-6 row-span-1 bg-site-200 text-site-800 lg:col-span-3 lg:row-span-1" title="Meditation">
+        <p slot="content">
+            A refuge for calm in life's chaos, meditation reconnects me with myself, fostering clarity and serenity.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-6 row-span-1 bg-site-300 text-site-600 lg:col-span-5 lg:row-span-1" title="Learning">
+        <p slot="content">
+            Continuous learning fuels personal growth, driving me toward self-improvement and achievement.
+        </p>
+    </BentoItem>
 </section>
+

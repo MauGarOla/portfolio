@@ -6,8 +6,8 @@ interface Props {
 const { title } = Astro.props
 ---
 
-<article class={`${Astro.props.class} neumorphism-flat rounded-3xl p-5`}>
-    <h3>{title}</h3>
+<article class={`${Astro.props.class} neumorphism-flat rounded-3xl p-3 text-center sm:text-right sm:p-5`}>
+    <h3 class="font-bold text-md sm:text-2xl">{title}</h3>
     <slot name="image"></slot>
     <slot name="content"></slot>
 </article>
