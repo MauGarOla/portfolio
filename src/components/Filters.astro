@@ -1,18 +1,41 @@
 ---
 import Filter from './Filter.astro'
 import Html from "./logos/Html.astro";
+import AstroLogo from "./logos/AstroLogo.astro";
+import Css from "./logos/Css.astro";
+import TypeScript from "./logos/TypeScript.astro";
+import JavaScript from "./logos/JavaScript.astro";
+import React from "./logos/React.astro";
+import Tailwind from "./logos/Tailwind.astro";
 import MGO from "./logos/MGO.astro";
 ---
-<nav class="mt-12 mb-6 text-site-300">
-    <Filter>
+<nav class="mt-12 mb-8 mx-5 text-site-300 flex gap-5 justify-center flex-wrap">
+    <Filter class="hover:text-[#E44D26] ">
         <Html />
+        <h1>Html</h1>
     </Filter>
-    <Filter>
-        <MGO />
+    <Filter class="hover:text-[#007AFF] ">
+        <Css />
+        <h1>Css</h1>
     </Filter>
-    <Filter />
-    <Filter />
-    <Filter />
-    <Filter />
-    <Filter />
+    <Filter class="hover:text-[#61DAFB] ">
+        <React />
+        <h1>React</h1>
+    </Filter>
+    <Filter class="hover:text-[#F472B6] ">
+        <AstroLogo /> 
+        <h1>Astro</h1>
+    </Filter>
+    <Filter class="hover:text-[#F7DF1E] ">
+        <JavaScript />
+        <h1>JavaScript</h1>
+    </Filter>
+    <Filter class="hover:text-[#007ACC] ">
+        <TypeScript />
+        <h1>TypeScript</h1>
+    </Filter>
+    <Filter class="hover:text-[#01DAFB] ">
+        <Tailwind />
+        <h1>Tailwind</h1>
+    </Filter>
 </nav>
