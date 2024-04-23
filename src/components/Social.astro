@@ -1,0 +1,13 @@
+---
+interface Props {
+    class?: string
+    href: string
+    download?: string
+}
+
+const { href, download } = Astro.props
+---
+
+<a class={`${ Astro.props.class } neumorphism-flat-sm p-2 size-10 rounded-full hover:text-site-200 m-auto`} href={href} download={download}>
+    <slot />
+</a>

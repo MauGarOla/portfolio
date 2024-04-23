@@ -57,7 +57,6 @@ Feel free to connect with me for any inquiries, collaborations, or just to say h
 
 ## To Do
 
-- Repair the contacts to make everything more useful
 - Make everything work
     - https://flowbite.com/docs/customize/dark-mode/
     - https://docs.astro.build/es/guides/content-collections/#:~:text=Las%20colecciones%20ayudan%20a%20organizar,TypeScript%20para%20todo%20tu%20contenido.

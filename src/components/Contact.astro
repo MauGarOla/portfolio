@@ -5,14 +5,26 @@ import Whatsapp from "./logos/Whatsapp.astro";
 import Mail from "./logos/Mail.astro";
 import Phone from "./logos/Phone.astro";
 import Resume from "./logos/Resume.astro";
-
+import Social from './Social.astro'
 
 ---
 <section {...Astro.props}>
-    <Github />
-    <LinkedIn />
-    <Whatsapp />
-    <Mail />
-    <Phone />
-    <Resume />
+    <Social href='https://github.com/MauGarOla'>
+        <Github />
+    </Social>
+    <Social href='https://www.linkedin.com/in/mauriciogolagaray/'>
+        <LinkedIn />
+    </Social>
+    <Social href="mailto:mau.gar.ola@hotmail.com">
+        <Mail />
+    </Social>   
+    <Social href="tel:+525517909080">
+        <Phone />
+    </Social>
+    <Social href="https://wa.me/525517909080?text=Hello,%20I%20would%20like%20to%20get%20in%20touch%20with%20you.%20Looking%20forward%20to%20your%20response!">
+        <Whatsapp />
+    </Social>
+    <Social href="/src/components/resumes/Resume.pdf" download="Resume.pdf">
+        <Resume />
+    </Social>
 </section>
