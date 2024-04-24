@@ -1,8 +1,28 @@
 ---
+import { LANGUAGES } from '../i18n/ui';
+import { getRouteFromUrl, useTranslatedPath, getLangFromUrl } from '../i18n/utils';
 
+const route = getRouteFromUrl(Astro.url);
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+
+const currentLocaleData = LANGUAGES[lang]
+const otherLocales = Object.values(LANGUAGES)
 ---
 <section class="flex justify-between ">
-    <h3 class="text-site-200">en</h3>
-    <h3 class="mx-5">es</h3>
-    <h3>de</h3>
+    <a href="/en">
+        {currentLocaleData.code === 'en' ?
+     <h4 class="text-site-200">en</h4> :
+     <h4>en</h4>}
+    </a>
+    <a href="/de" class="mx-4">
+        {currentLocaleData.code === 'de' ?
+     <h4 class="text-site-200">de</h4> :
+     <h4>de</h4>}
+    </a>
+    <a href="/es">
+        {currentLocaleData.code === 'es' ?
+     <h4 class="text-site-200">es</h4> :
+     <h4>es</h4>}
+    </a>
 </section>

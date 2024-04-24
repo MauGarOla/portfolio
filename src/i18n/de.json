@@ -1,0 +1,164 @@
+{
+    "LANG": "de",
+
+    "SEO_TITLE": "Mauricio G. Olagaray Portfolio",
+    "SEO_DESCRIPTION": "Willkommen im Portfolio von Mau - präsentiert Fähigkeiten im Programmieren. Entdecken Sie eine Sammlung von Programmierprojekten, Designs und Kreationen.",
+    "SEO_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programmierung, Projekte, Designs, Kreationen",
+
+    "SEO": {
+        "PRIVACY_TITLE": "Mauricio G. Olagaray Portfolio - Datenschutzrichtlinie",
+        "PRYVACY_DESCRIPTION": "Willkommen im Portfolio von Mau - Unsere Datenschutzrichtlinie liefert wichtige Informationen darüber, wie wir den Datenschutz der Benutzer handhaben und die Regeln für die Nutzung unserer Website.",
+        "PRIVACY_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programmierung, Projekte, Designs, Kreationen, Datenschutzrichtlinie",
+
+        "TERMS_TITLE": "Mauricio G. Olagaray Portfolio - Allgemeine Geschäftsbedingungen",
+        "TERMS_DESCRIPTION": "Willkommen im Portfolio von Mau - Unsere Allgemeinen Geschäftsbedingungen liefern wichtige Informationen darüber, wie wir den Datenschutz der Benutzer handhaben und die Regeln für die Nutzung unserer Website.",
+        "TERMS_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programmierung, Projekte, Designs, Kreationen, Allgemeine Geschäftsbedingungen"
+    },
+
+    "PERSONAL": {
+        "TITLE": "Portfolio",
+        "SUBTITLE": "Frontend Entwickler",
+        "PARAGRAPHS": "Hallo! Ich bin ein <strong>mehrsprachiger</strong> Profi mit Sitz in <strong>Europa</strong> und habe mich auf die Entwicklung einzigartiger und kreativer <strong>Webanwendungen</strong> spezialisiert."
+    },
+    
+    "ABOUT_ME": {
+        "TITLE": "Über mich",
+        "BENTO_1": {
+            "TITLE": "Yoga",
+            "PARAGRAPHS": "Yoga bietet Ausgeglichenheit und Achtsamkeit und verbindet Körper, Geist und Seele in der täglichen Praxis."
+        },
+        "BENTO_2": {
+            "TITLE": "Klettern",
+            "PARAGRAPHS": "Leidenschaftlich beim Klettern, finde ich Stärke und Wachstum darin, meine Grenzen inmitten der Schönheit der Natur zu überschreiten."
+        },
+        "BENTO_3": {
+            "TITLE": "Reisen",
+            "PARAGRAPHS": "Inspiriert durch die Erkundung öffnet mir das Reisen den Geist für neue Kulturen und Erfahrungen, schafft kostbare Erinnerungen."
+        },
+        "BENTO_4": {
+            "TITLE": "Musik",
+            "PARAGRAPHS": "Als universelle Sprache befeuert Musik meine Emotionen und bringt Freude, Trost und Inspiration."
+        },
+        "BENTO_5": {
+            "TITLE": "Lesen",
+            "PARAGRAPHS": "Durch Bücher erforsche ich Welten des Wissens und der Vorstellungskraft und fördere kontinuierliches Wachstum und Reflektion."
+        },
+        "BENTO_6": {
+            "TITLE": "Geburtstag",
+            "PARAGRAPHS": "Ich wurde am Morgen des 14. März 1999 geboren."
+        },
+        "BENTO_7": {
+            "TITLE": "Organisiert",
+            "PARAGRAPHS": "Organisation fördert Produktivität und Klarheit, reduziert Stress und ermöglicht die Fokussierung auf Prioritäten."
+        },
+        "BENTO_8": {
+            "TITLE": "Meditation",
+            "PARAGRAPHS": "Als Zufluchtsort für Ruhe im Chaos des Lebens verbindet mich Meditation mit mir selbst und fördert Klarheit und Gelassenheit."
+        },
+        "BENTO_9": {
+            "TITLE": "Lernen",
+            "PARAGRAPHS": "Kontinuierliches Lernen befeuert persönliches Wachstum, treibt mich zur Selbstverbesserung und zum Erreichen von Zielen."
+        }
+    },
+
+    "PROJECTS": {
+        "TITLE": "Projekte",
+        "FILTER": "Kein Filter"
+    },
+
+    "PRE_FOOTER": {
+        "SECTION_1": {
+            "TITLE": "Ressourcen"
+        },
+        "SECTION_2": {
+            "TITLE": "Rechtliches",
+            "SUBTITLE_1": "Datenschutzrichtlinie",
+            "SUBTITLE_2": "Allgemeine Geschäftsbedingungen"
+        },
+        "SECTION_3": {
+            "TITLE": "Folge mir",
+            "SUBTITLE_1": "Reisepläne",
+            "SUBTITLE_2": "Rezepte"
+        }
+    },
+
+    "FOOTER": "Viele Rechte vorbehalten.",
+
+    "PRIVACY": {
+        "BACK": "Zurück",
+        "TITLE": "Datenschutzrichtlinie",
+        "UPDATE": "Zuletzt aktualisiert: 23. Apr 2024",
+        "DESCRIPTION": "Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig durch, bevor Sie die MauGarOla Portfolio-Website nutzen.",
+        "SECTION_1": {
+        "TITLE": "Erhebung und Verwendung von Informationen",
+        "PARAGRAPHS": {
+            "ONE": "Vielen Dank für Ihren Besuch bei MauGarOla Portfolio. Bei MauGarOla Portfolio hat der Datenschutz unserer Besucher für uns oberste Priorität. Diese Datenschutzrichtlinie beschreibt, wie wir die persönlichen Informationen sammeln, verwenden und schützen, die Sie auf unserer Website bereitstellen.",
+            "TWO": "Wir sammeln keine personenbezogenen Daten von Besuchern unserer Website, es sei denn, sie geben diese ausdrücklich an. Wenn Sie uns über unser Kontaktformular oder per E-Mail kontaktieren, erhalten wir möglicherweise Ihren Namen und Ihre E-Mail-Adresse, um auf Ihre Anfrage zu antworten. Diese Informationen werden jedoch nicht für andere Zwecke verwendet und werden nicht an Dritte weitergegeben."
+        }
+        },
+        "SECTION_2": {
+        "TITLE": "Cookies und ähnliche Technologien",
+        "PARAGRAPHS": {
+            "ONE": "MauGarOla Portfolio kann Cookies und andere Tracking-Technologien verwenden, um das Benutzererlebnis auf unserer Website zu verbessern. Diese Cookies sammeln keine personenbezogenen Daten über Sie und werden ausschließlich zu statistischen und analytischen Zwecken verwendet."
+        }
+        },
+        "SECTION_3": {
+        "TITLE": "Links zu Websites Dritter",
+        "PARAGRAPHS": {
+            "ONE": "Unsere Website kann Links zu Websites Dritter enthalten, die nicht von uns kontrolliert werden. Wir sind nicht für die Datenschutzpraktiken oder den Inhalt dieser Websites Dritter verantwortlich. Wir empfehlen Ihnen, die Datenschutzrichtlinie jeder Website, die Sie besuchen, zu überprüfen."
+        }
+        },
+        "SECTION_4": {
+        "TITLE": "Änderungen der Datenschutzrichtlinie",
+        "PARAGRAPHS": {
+            "ONE": "Wir behalten uns das Recht vor, unsere Datenschutzrichtlinie jederzeit zu aktualisieren oder zu ändern. Änderungen an dieser Richtlinie treten sofort nach Veröffentlichung auf dieser Seite in Kraft."
+        }
+        },
+        "SECTION_5": {
+        "TITLE": "Kontakt",
+        "PARAGRAPHS": {
+            "ONE": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter mau.gar.ola@hotmail.com ."
+        }
+        }
+    },
+    "TERMS": {
+        "BACK": "Zurück",
+        "TITLE": "Nutzungsbedingungen",
+        "UPDATE": "Zuletzt aktualisiert: 23. Apr 2024",
+        "DESCRIPTION": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie die MauGarOla Portfolio-Website nutzen.",
+        "SECTION_1": {
+        "TITLE": "Ihr Zugang und Ihre Nutzung des Dienstes",
+        "PARAGRAPHS": {
+            "ONE": "Ihr Zugang und Ihre Nutzung des Dienstes unterliegen Ihrer Zustimmung zu und Einhaltung dieser Bedingungen. Diese Bedingungen gelten für alle Besucher, Benutzer und andere Personen, die auf den Dienst zugreifen oder ihn nutzen.",
+            "TWO": "Durch den Zugriff oder die Nutzung des Dienstes erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie nicht auf den Dienst zugreifen."
+        }
+        },
+        "SECTION_2": {
+        "TITLE": "Links zu anderen Websites",
+        "PARAGRAPHS": {
+            "ONE": "Unser Dienst kann Links zu Websites oder Diensten Dritter enthalten, die nicht im Besitz oder unter der Kontrolle von MauGarOla Portfolio stehen.",
+            "TWO": "MauGarOla Portfolio hat keine Kontrolle über den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Websites oder Diensten Dritter. Sie erkennen weiterhin an und stimmen zu, dass MauGarOla Portfolio nicht für Schäden oder Verluste verantwortlich ist, die durch die Nutzung oder den Verlass auf Inhalte, Waren oder Dienstleistungen entstehen, die auf oder über solche Websites oder Dienste verfügbar sind.",
+            "THREE": "Wir empfehlen Ihnen dringend, die Nutzungsbedingungen und Datenschutzrichtlinien aller Websites oder Dienste Dritter zu lesen, die Sie besuchen."
+        }
+        },
+        "SECTION_3": {
+        "TITLE": "Geltendes Recht",
+        "PARAGRAPHS": {
+            "ONE": "Diese Bedingungen unterliegen den Gesetzen von [Ihr Land], unabhängig von deren Kollisionsnormen."
+        }
+        },
+        "SECTION_4": {
+        "TITLE": "Änderungen",
+        "PARAGRAPHS": {
+            "ONE": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit nach eigenem Ermessen zu ändern oder zu ersetzen. Wenn eine Überarbeitung wesentlich ist, werden wir versuchen, Ihnen mindestens 30 Tage im Voraus über neue Bedingungen zu informieren, die in Kraft treten. Was eine wesentliche Änderung darstellt, wird nach unserem alleinigen Ermessen bestimmt.",
+            "TWO": "Indem Sie weiterhin auf unseren Dienst zugreifen oder ihn nutzen, nachdem diese Überarbeitungen wirksam geworden sind, erklären Sie sich mit den überarbeiteten Bedingungen einverstanden. Wenn Sie den neuen Bedingungen nicht zustimmen, nutzen Sie den Dienst bitte nicht mehr."
+        }
+        },
+        "SECTION_5": {
+        "TITLE": "Kontaktieren Sie uns",
+        "PARAGRAPHS": {
+            "ONE": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter mau.gar.ola@hotmail.com ."
+        }
+        }
+    }
+}
