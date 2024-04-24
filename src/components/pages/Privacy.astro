@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getI18N } from "../../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+<Layout title="Mauricio G. Olagaray Portfolio - Privacy Policy" 
+		description="Welcome to Mau's Portfolio - Our Privacy Policy page provide important information about how we handle user privacy and the rules for using our website."
+		keyword="Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programming, Projects, Desings, Creations, Privacy Policy"
+		author="Mauricio G. Olagaray">
+	<section class="neumorphism-flat rounded-3xl overflow-hidden p-6 text-site-100">
+        <a  href="./" class="neumorphism-flat-sm p-2 rounded-full hover:text-site-200 m-auto">{i18n.PRIVACY.BACK}</a>
+		<h1 class="neumorphism-flat-text-lg text-site-200 text-3xl md:text-5xl lg:text-7xl font-bold tracking-wider mt-8 mb-4 md:text-left">{i18n.PRIVACY.TITLE}</h1>
+        <p>{i18n.PRIVACY.UPDATE}</p>
+        <p>{i18n.PRIVACY.DESCRIPTION}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.PRIVACY.SECTION_1.TITLE}</h2>
+        <p>{i18n.PRIVACY.SECTION_1.PARAGRAPHS.ONE}</p>
+        <p>{i18n.PRIVACY.SECTION_1.PARAGRAPHS.TWO}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.PRIVACY.SECTION_2.TITLE}</h2>
+        <p>{i18n.PRIVACY.SECTION_2.PARAGRAPHS.ONE}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.PRIVACY.SECTION_3.TITLE}</h2>
+        <p>{i18n.PRIVACY.SECTION_3.PARAGRAPHS.ONE}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.PRIVACY.SECTION_4.TITLE}</h2>
+        <p>{i18n.PRIVACY.SECTION_4.PARAGRAPHS.ONE}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.PRIVACY.SECTION_5.TITLE}</h2>
+        <p>{i18n.PRIVACY.SECTION_5.PARAGRAPHS.ONE}</p>
+        <a  href="./" class="neumorphism-flat-sm p-2 rounded-full hover:text-site-200 m-auto mt-6 inline-block" >{i18n.PRIVACY.BACK}</a>
+	</section>
+</Layout>
+<style>
+
+</style>

@@ -1,52 +1,38 @@
 ---
 import BentoItem from './BentoItem.astro'
+import { getI18N } from "../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
 ---
-<h1 class="neumorphism-pressed-text-sm text-6xl text-center md:text-left mt-24 font-bold text-site-300">About me</h1>
+<h1 class="neumorphism-pressed-text-sm text-6xl text-center md:text-left mt-24 font-bold text-site-300">{i18n.ABOUT_ME.TITLE}</h1>
 <section class="bento w-full grid grid-cols-12 gap-6 mx-auto mt-12 sm:text-lg lg:text-3xl">
-    <BentoItem class="col-span-5 row-span-1 bg-site-300 text-site-600 lg:col-span-8 lg:row-span-1" title="Yoga">
-        <p slot="content">
-            Yoga provides balance and mindfulness, connecting body, mind, and spirit in daily practice.
-        </p>
+    <BentoItem class="col-span-5 row-span-1 bg-site-300 text-site-600 lg:col-span-8 lg:row-span-1" title={i18n.ABOUT_ME.BENTO_1.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_1.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-7 row-span-1 bg-site-200 text-site-800 lg:col-span-4 lg:row-span-2" title="Climbing">
-        <p slot="content">
-            Passionate about climbing, I find strength and growth in pushing my limits amidst nature's beauty.
-        </p>
+    <BentoItem class="col-span-7 row-span-1 bg-site-200 text-site-800 lg:col-span-4 lg:row-span-2" title={i18n.ABOUT_ME.BENTO_2.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_2.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-7 row-span-1 bg-site-600 text-site-100 lg:col-span-4 lg:row-span-2" title="Traveling">
-        <p slot="content">
-            Inspired by exploration, travel opens my mind to new cultures and experiences, creating cherished memories.
-        </p>
+    <BentoItem class="col-span-7 row-span-1 bg-site-600 text-site-100 lg:col-span-4 lg:row-span-2" title={i18n.ABOUT_ME.BENTO_3.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_3.PARAGRAPHS} </p>
     </BentoItem>
-    <BentoItem class="col-span-5 row-span-1 bg-site-800 text-site-300 lg:bg-site-100 lg:text-site-600 lg:col-span-4 lg:row-span-3" title="Music">
-        <p slot="content">
-            A universal language, music fuels my emotions, bringing joy, comfort, and inspiration.
-        </p>
+    <BentoItem class="col-span-5 row-span-1 bg-site-800 text-site-300 lg:bg-site-100 lg:text-site-600 lg:col-span-4 lg:row-span-3" title={i18n.ABOUT_ME.BENTO_4.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_4.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-12 row-span-1 bg-site-100 text-site-600 lg:bg-site-800 lg:text-site-300 lg:col-span-4 lg:row-span-2" title="Reading">
-        <p slot="content">
-            Through books, I explore worlds of knowledge and imagination, fostering continuous growth and reflection.
-        </p>
+    <BentoItem class="col-span-12 row-span-1 bg-site-100 text-site-600 lg:bg-site-800 lg:text-site-300 lg:col-span-4 lg:row-span-2" title={i18n.ABOUT_ME.BENTO_5.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_5.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-4 row-span-1 bg-site-800 text-site-300 lg:col-span-4 lg:row-span-3" title="Birthday">
-        <p slot="content">
-            I was born on the morning of March 14, 1999.
-        </p>
+    <BentoItem class="col-span-4 row-span-1 bg-site-800 text-site-300 lg:col-span-4 lg:row-span-3" title={i18n.ABOUT_ME.BENTO_6.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_6.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-8 row-span-1 bg-site-600 text-site-100 lg:col-span-8 lg:row-span-1 " title="Organiced">
-        <p slot="content">
-            Organization empowers productivity and clarity, reducing stress and enabling focus on priorities.
-        </p>
+    <BentoItem class="col-span-8 row-span-1 bg-site-600 text-site-100 lg:col-span-8 lg:row-span-1 " title={i18n.ABOUT_ME.BENTO_7.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_7.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-6 row-span-1 bg-site-200 text-site-800 lg:col-span-3 lg:row-span-1" title="Meditation">
-        <p slot="content">
-            A refuge for calm in life's chaos, meditation reconnects me with myself, fostering clarity and serenity.
-        </p>
+    <BentoItem class="col-span-6 row-span-1 bg-site-200 text-site-800 lg:col-span-3 lg:row-span-1" title={i18n.ABOUT_ME.BENTO_8.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_8.PARAGRAPHS}</p>
     </BentoItem>
-    <BentoItem class="col-span-6 row-span-1 bg-site-300 text-site-600 lg:col-span-5 lg:row-span-1" title="Learning">
-        <p slot="content">
-            Continuous learning fuels personal growth, driving me toward self-improvement and achievement.
-        </p>
+    <BentoItem class="col-span-6 row-span-1 bg-site-300 text-site-600 lg:col-span-5 lg:row-span-1" title={i18n.ABOUT_ME.BENTO_9.TITLE}>
+        <p slot="content">{i18n.ABOUT_ME.BENTO_9.PARAGRAPHS}</p>
     </BentoItem>
 </section>
 

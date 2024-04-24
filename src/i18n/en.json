@@ -1,0 +1,165 @@
+{
+    "LANG": "en",
+    
+    "SEO_TITLE": "Mauricio G. Olagaray Portfolio",
+    "SEO_DESCRIPTION": "Welcome to Mau's Portfolio - showcasing coding skills. Explore a collection of programming projects, designs, and creations.",
+    "SEO_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programming, Projects, Desings, Creations",
+
+    "SEO": {
+        "PRIVACY_TITLE": "Mauricio G. Olagaray Portfolio - Privacy Policy",
+        "PRYVACY_DESCRIPTION": "Welcome to Mau's Portfolio - Our Privacy Policy page provide important information about how we handle user privacy and the rules for using our website.",
+        "PRIVACY_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programming, Projects, Desings, Creations, Privacy Policy",
+
+        "TERMS_TITLE": "Mauricio G. Olagaray Portfolio - Terms and Conditions",
+        "TERMS_DESCRIPTION": "Welcome to Mau's Portfolio - Our Terms and Conditions page provide important information about how we handle user privacy and the rules for using our website.",
+        "TERMS_KEYWORDS":"Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programming, Projects, Desings, Creations, Terms and Conditions"
+    },
+
+    "PERSONAL": {
+        "TITLE": "Portfolio",
+        "SUBTITLE": "Frontend Developer",
+        "PARAGRAPHS": "Hi! I'm a <strong>trilingual</strong> professional based in <strong>Europe,</strong> specializing in the development of unique and creative <strong>web applications.</strong>"
+    },
+    
+    "ABOUT_ME": {
+        "TITLE": "About me",
+        "BENTO_1": {
+            "TITLE": "Yoga",
+            "PARAGRAPHS": "Yoga provides balance and mindfulness, connecting body, mind, and spirit in daily practice."
+        },
+        "BENTO_2": {
+            "TITLE": "Climbing",
+            "PARAGRAPHS": "Passionate about climbing, I find strength and growth in pushing my limits amidst nature's beauty."
+        },
+        "BENTO_3": {
+            "TITLE": "Traveling",
+            "PARAGRAPHS": "Inspired by exploration, travel opens my mind to new cultures and experiences, creating cherished memories."
+        },
+        "BENTO_4": {
+            "TITLE": "Music",
+            "PARAGRAPHS": "A universal language, music fuels my emotions, bringing joy, comfort, and inspiration."
+        },
+        "BENTO_5": {
+            "TITLE": "Reading",
+            "PARAGRAPHS": "Through books, I explore worlds of knowledge and imagination, fostering continuous growth and reflection."
+        },
+        "BENTO_6": {
+            "TITLE": "Birthday",
+            "PARAGRAPHS": "I was born on the morning of March 14, 1999."
+        },
+        "BENTO_7": {
+            "TITLE": "Organiced",
+            "PARAGRAPHS": "Organization empowers productivity and clarity, reducing stress and enabling focus on priorities."
+        },
+        "BENTO_8": {
+            "TITLE": "Meditation",
+            "PARAGRAPHS": "A refuge for calm in life's chaos, meditation reconnects me with myself, fostering clarity and serenity."
+        },
+        "BENTO_9": {
+            "TITLE": "Learning",
+            "PARAGRAPHS": "Continuous learning fuels personal growth, driving me toward self-improvement and achievement."
+        }
+    },
+
+    "PROJECTS": {
+        "TITLE": "Projects",
+        "FILTER": "No filter"
+    },
+
+    "PRE_FOOTER": {
+        "SECTION_1": {
+            "TITLE": "Resources"
+        },
+        "SECTION_2": {
+            "TITLE": "Legal",
+            "SUBTITLE_1": "Privacy Policy",
+            "SUBTITLE_2": "Terms & Conditions"
+        },
+        "SECTION_3": {
+            "TITLE": "Follow me",
+            "SUBTITLE_1": "Travel Plans",
+            "SUBTITLE_2": "Recepies"
+        }
+    },
+
+    "FOOTER": "Many Rights Reserved.",
+
+    "PRIVACY": {
+        "BACK": "Back",
+        "TITLE": "Privacy Policy",
+        "UPDATE": "Last updated: Apr 23 2024",
+        "DESCRIPTION": "Please read these privacy policy before using MauGarOla Portfolio website.",
+        "SECTION_1": {
+            "TITLE": "Collection and use of information",
+            "PARAGRAPHS": {
+                "ONE": "Thank you for visiting MauGarOla Portfolio. At MauGarOla Portfolio, the privacy of our visitors is a top priority for us. This privacy policy describes how we collect, use, and protect the personal information you provide on our website.",
+                "TWO": "We do not collect personally identifiable information from visitors to our website unless they expressly provide it. If you contact us through our contact form or email, we may receive your name and email address to respond to your inquiry. However, this information is not used for any other purpose and is not shared with third parties."
+            }    
+        },
+        "SECTION_2": {
+            "TITLE": "Cookies and similar technologies",
+            "PARAGRAPHS": {
+                "ONE": "MauGarOla Portfolio may use cookies and other tracking technologies to enhance the user experience on our website. These cookies do not collect personally identifiable information about you and are used solely for statistical and analytical purposes."
+            }    
+        },
+        "SECTION_3": {
+            "TITLE": "Links to third-party websites",
+            "PARAGRAPHS": {
+                "ONE": "Our website may contain links to third-party websites that are not controlled by us. We are not responsible for the privacy practices or content of these third-party websites. We recommend that you review the privacy policy of each website you visit."
+            }    
+        },
+        "SECTION_4": {
+            "TITLE": "Changes to the privacy policy",
+            "PARAGRAPHS": {
+                "ONE": "We reserve the right  to update or change our privacy policy at any time. Any changes to this policy will be effective immediately upon posting on this page."
+            }    
+        },
+        "SECTION_5": {
+            "TITLE": "Contact",
+            "PARAGRAPHS": {
+                "ONE": "If you have any questions about this privacy policy, please contact us at mau.gar.ola@hotmail.com ."
+            }    
+        }
+    },
+
+    "TERMS": {
+        "BACK": "Back",
+        "TITLE": "Terms and Conditions",
+        "UPDATE": "Last updated: Apr 23 2024",
+        "DESCRIPTION": "Please read these terms and conditions carefully before using MauGarOla Portfolio website.",
+        "SECTION_1": {
+            "TITLE": "Your access to and use of the Service",
+            "PARAGRAPHS": {
+                "ONE": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.",
+                "TWO": "By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service."
+            }    
+        },
+        "SECTION_2": {
+            "TITLE": "Links To Other Web Sites",
+            "PARAGRAPHS": {
+                "ONE": "Our Service may contain links to third-party web sites or services that are not owned or controlled by MauGarOla Portfolio.",
+                "TWO": "MauGarOla Portfolio has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that MauGarOla Portfolio shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.",
+                "THREE": "We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit."
+            }    
+        },
+        "SECTION_3": {
+            "TITLE": "Governing Law",
+            "PARAGRAPHS": {
+                "ONE": "These Terms shall be governed and construed in accordance with the laws of [Your Country], without regard to its conflict of law provisions."
+            }    
+        },
+        "SECTION_4": {
+            "TITLE": "Changes",
+            "PARAGRAPHS": {
+                "ONE": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.",
+                "TWO":  "By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service."
+            }    
+        },
+        "SECTION_5": {
+            "TITLE": "Contact Us",
+            "PARAGRAPHS": {
+                "ONE": "If you have any questions about these Terms, please contact us at mau.gar.ola@hotmail.com ."
+            }    
+        }
+    }
+}

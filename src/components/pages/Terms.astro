@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getI18N } from "../../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+<Layout title={i18n.SEO.TERMS_TITLE} 
+		description={i18n.SEO.TERMS_DESCRIPTION}
+		keyword={i18n.SEO.TERMS_KEYWORDS}
+		author="Mauricio G. Olagaray">
+	<section class="neumorphism-flat rounded-3xl overflow-hidden p-6 text-site-100">
+        <a  href="./" class="neumorphism-flat-sm p-2 rounded-full hover:text-site-200 m-auto">{i18n.TERMS.BACK}</a>
+		<h1 class="neumorphism-flat-text-lg text-site-200 text-3xl md:text-5xl lg:text-7xl font-bold tracking-wider mt-8 mb-4 md:text-right">{i18n.TERMS.TITLE}</h1>
+        <p>{i18n.TERMS.UPDATE}</p>
+        <p>{i18n.TERMS.DESCRIPTION}.</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.TERMS.SECTION_1.TITLE}</h2>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.ONE}</p>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.TWO}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.TERMS.SECTION_2.TITLE}</h2>
+        <p>{i18n.TERMS.SECTION_2.PARAGRAPHS.ONE}</p>
+        <p>{i18n.TERMS.SECTION_2.PARAGRAPHS.TWO}</p>
+        <p>{i18n.TERMS.SECTION_2.PARAGRAPHS.THREE}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.TERMS.SECTION_3.TITLE}</h2>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.ONE}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.TERMS.SECTION_4.TITLE}</h2>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.ONE}</p>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.TWO}</p>
+        <h2 class="neumorphism-pressed-text-sm text-site-300 text-lg font-bold tracking-widest md:text-left mt-8 mb-4">{i18n.TERMS.SECTION_5.TITLE}</h2>
+        <p>{i18n.TERMS.SECTION_1.PARAGRAPHS.ONE}</p>
+        <a  href="./" class="neumorphism-flat-sm p-2 rounded-full hover:text-site-200 m-auto mt-6 inline-block" >{i18n.TERMS.BACK}</a>
+	</section>
+</Layout>

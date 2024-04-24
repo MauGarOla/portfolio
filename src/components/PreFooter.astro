@@ -1,6 +1,12 @@
+---
+import { getI18N } from "../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
 <section class="neumorphism-pressed mt-24 p-6 rounded-3xl text-site-300 text-sm text-center gap-8 grid pre-footer">
     <div class="neumorphism-flat-sm rounded-2xl p-4">
-        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-semibold tracking-widest mb-3 mx-auto">Resources</h3>
+        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-semibold tracking-widest mb-3 mx-auto">{i18n.PRE_FOOTER.SECTION_1.TITLE}</h3>
         <ul>
             <li><a href="https://astro.build">Astro</a></li>
             <li><a href="https://tailwindcss.com">Tailwind</a></li>
@@ -11,20 +17,20 @@
         </ul>
     </div>
     <div class="neumorphism-flat-sm rounded-2xl p-4">
-        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-bold tracking-widest mb-3 mx-auto">Legal</h3>
+        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-bold tracking-widest mb-3 mx-auto">{i18n.PRE_FOOTER.SECTION_2.TITLE}</h3>
         <ul>
-            <li><a href="../privacy">Privacy Policy</a></li>
-            <li><a href="../terms">Terms & Conditions</a></li>
+            <li><a href=`/${i18n.LANG}/privacy`>{i18n.PRE_FOOTER.SECTION_2.SUBTITLE_1}</a></li>
+            <li><a href=`/${i18n.LANG}/terms`>{i18n.PRE_FOOTER.SECTION_2.SUBTITLE_2}</a></li>
         </ul>
     </div>
     <div class="neumorphism-flat-sm rounded-2xl p-4">
-        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-bold tracking-widest mb-3 mx-auto">Follow me</h3>
+        <h3 class="neumorphism-pressed-text-sm text-site-100 text-md font-bold tracking-widest mb-3 mx-auto">{i18n.PRE_FOOTER.SECTION_3.TITLE}</h3>
         <ul>
             <li><a href="https://www.instagram.com/maugarola/">Instagram</a></li>
             <li><a href="https://www.facebook.com/maugarola/">Facebook</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Travel Plans</a></li>
-            <li><a href="">Recepies</a></li>
+            <li><a href="">{i18n.PRE_FOOTER.SECTION_3.SUBTITLE_1}</a></li>
+            <li><a href="">{i18n.PRE_FOOTER.SECTION_3.SUBTITLE_2}</a></li>
         </ul>
     </div>
 </section>
