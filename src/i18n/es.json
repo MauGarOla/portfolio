@@ -1,0 +1,165 @@
+{   
+    "LANG": "es",
+
+    "SEO_TITLE": "Portafolio de Mauricio G. Olagaray",
+    "SEO_DESCRIPTION": "Bienvenido al portafolio de Mau, donde se muestran habilidades de codificación. Explora una colección de proyectos de programación, diseños y creaciones.",
+    "SEO_KEYWORDS": "Mauricio G. Olagaray, Mau Gar Ola, Portafolio, Programación, Proyectos, Diseños, Creaciones",
+
+    "SEO": {
+        "PRIVACY_TITLE": "Portafolio de Mauricio G. Olagaray - Política de Privacidad",
+        "PRYVACY_DESCRIPTION": "Bienvenido al portafolio de Mau - Nuestra página de Política de Privacidad proporciona información importante sobre cómo manejamos la privacidad del usuario y las reglas para usar nuestro sitio web.",
+        "PRIVACY_KEYWORDS": "Mauricio G. Olagaray, Mau Gar Ola, Portafolio, Programación, Proyectos, Diseños, Creaciones, Política de Privacidad",
+
+        "TERMS_TITLE": "Portafolio de Mauricio G. Olagaray - Términos y Condiciones",
+        "TERMS_DESCRIPTION": "Bienvenido al portafolio de Mau - Nuestra página de Términos y Condiciones proporciona información importante sobre cómo manejamos la privacidad del usuario y las reglas para usar nuestro sitio web.",
+        "TERMS_KEYWORDS": "Mauricio G. Olagaray, Mau Gar Ola, Portafolio, Programación, Proyectos, Diseños, Creaciones, Términos y Condiciones"
+    },
+
+    "PERSONAL": {
+        "TITLE": "Portafolio",
+        "SUBTITLE": "Desarrollador Frontend",
+        "PARAGRAPHS": "¡Hola! Soy un profesional <strong>trilingüe</strong> con sede en <strong>Europa,</strong> especializado en el desarrollo de <strong>aplicaciones web</strong> únicas y creativas."
+    },
+    
+    "ABOUT_ME": {
+        "TITLE": "Sobre mí",
+        "BENTO_1": {
+            "TITLE": "Yoga",
+            "PARAGRAPHS": "El yoga proporciona equilibrio y atención plena, conectando cuerpo, mente y espíritu en la práctica diaria."
+        },
+        "BENTO_2": {
+            "TITLE": "Escalada",
+            "PARAGRAPHS": "Apasionado por la escalada, encuentro fuerza y crecimiento al desafiarme a mí mismo en medio de la belleza de la naturaleza."
+        },
+        "BENTO_3": {
+            "TITLE": "Viajar",
+            "PARAGRAPHS": "Inspirado por la exploración, los viajes abren mi mente a nuevas culturas y experiencias, creando recuerdos entrañables."
+        },
+        "BENTO_4": {
+            "TITLE": "Música",
+            "PARAGRAPHS": "Un lenguaje universal, la música alimenta mis emociones, trayendo alegría, consuelo e inspiración."
+        },
+        "BENTO_5": {
+            "TITLE": "Lectura",
+            "PARAGRAPHS": "A través de los libros, exploro mundos de conocimiento e imaginación, fomentando un crecimiento y reflexión continuos."
+        },
+        "BENTO_6": {
+            "TITLE": "Cumpleaños",
+            "PARAGRAPHS": "Nací en la mañana del 14 de marzo de 1999."
+        },
+        "BENTO_7": {
+            "TITLE": "Organización",
+            "PARAGRAPHS": "La organización potencia la productividad y la claridad, reduciendo el estrés y permitiendo centrarse en las prioridades."
+        },
+        "BENTO_8": {
+            "TITLE": "Meditación",
+            "PARAGRAPHS": "Un refugio para la calma en el caos de la vida, la meditación me reconecta conmigo mismo, fomentando claridad y serenidad."
+        },
+        "BENTO_9": {
+            "TITLE": "Aprendizaje",
+            "PARAGRAPHS": "El aprendizaje continuo alimenta el crecimiento personal, impulsándome hacia la auto-superación y el logro."
+        }
+    },
+
+    "PROJECTS": {
+        "TITLE": "Proyectos",
+        "FILTER": "Sin filtro"
+    },
+
+    "PRE_FOOTER": {
+        "SECTION_1": {
+            "TITLE": "Recursos"
+        },
+        "SECTION_2": {
+            "TITLE": "Legal",
+            "SUBTITLE_1": "Política de Privacidad",
+            "SUBTITLE_2": "Términos y Condiciones"
+        },
+        "SECTION_3": {
+            "TITLE": "Sígueme",
+            "SUBTITLE_1": "Planes de Viaje",
+            "SUBTITLE_2": "Recetas"
+        }
+    },
+
+    "FOOTER": "Muchos derechos reservados.",
+
+    "PRIVACY": {
+        "BACK": "Volver",
+        "TITLE": "Política de Privacidad",
+        "UPDATE": "Última actualización: Apr 23 2024",
+        "DESCRIPTION": "Lea atentamente estas política de privacidad antes de utilizar el sitio web de MauGarOla Portfolio.",
+        "SECTION_1": {
+        "TITLE": "Recolección y uso de la información",
+        "PARAGRAPHS": {
+            "ONE": "Gracias por visitar MauGarOla Portfolio. En MauGarOla Portfolio, la privacidad de nuestros visitantes es una prioridad para nosotros. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que usted proporciona en nuestro sitio web.",
+            "TWO": "No recopilamos información de identificación personal de los visitantes de nuestro sitio web a menos que la proporcionen expresamente. Si nos contacta a través de nuestro formulario de contacto o correo electrónico, podemos recibir su nombre y dirección de correo electrónico para responder a su consulta. Sin embargo, esta información no se utiliza para ningún otro propósito y no se comparte con terceros."
+        }
+        },
+        "SECTION_2": {
+        "TITLE": "Cookies y tecnologías similares",
+        "PARAGRAPHS": {
+            "ONE": "MauGarOla Portfolio puede utilizar cookies y otras tecnologías de seguimiento para mejorar la experiencia del usuario en nuestro sitio web. Estas cookies no recopilan información de identificación personal sobre usted y se utilizan únicamente con fines estadísticos y analíticos."
+        }
+        },
+        "SECTION_3": {
+        "TITLE": "Enlaces a sitios web de terceros",
+        "PARAGRAPHS": {
+            "ONE": "Nuestro sitio web puede contener enlaces a sitios web de terceros que no están controlados por nosotros. No somos responsables de las prácticas de privacidad o el contenido de estos sitios web de terceros. Recomendamos que revise la política de privacidad de cada sitio web que visite."
+        }
+        },
+        "SECTION_4": {
+        "TITLE": "Cambios en la política de privacidad",
+        "PARAGRAPHS": {
+            "ONE": "Nos reservamos el derecho de actualizar o cambiar nuestra política de privacidad en cualquier momento. Cualquier cambio en esta política será efectivo de inmediato después de su publicación en esta página."
+        }
+        },
+        "SECTION_5": {
+        "TITLE": "Contacto",
+        "PARAGRAPHS": {
+            "ONE": "Si tiene alguna pregunta sobre esta política de privacidad, contáctenos en mau.gar.ola@hotmail.com ."
+        }
+        }
+    },
+
+    "TERMS": {
+        "BACK": "Volver",
+        "TITLE": "Términos y Condiciones",
+        "UPDATE": "Última actualización: Apr 23 2024",
+        "DESCRIPTION": "Lea atentamente estos términos y condiciones antes de utilizar el sitio web de MauGarOla Portfolio.",
+        "SECTION_1": {
+        "TITLE": "Su acceso y uso del Servicio",
+        "PARAGRAPHS": {
+            "ONE": "Su acceso y uso del Servicio está condicionado a su aceptación y cumplimiento de estos Términos. Estos Términos se aplican a todos los visitantes, usuarios y otras personas que acceden o utilizan el Servicio.",
+            "TWO": "Al acceder o utilizar el Servicio, usted acepta quedar obligado por estos Términos. Si no está de acuerdo con alguna parte de los términos, no puede acceder al Servicio."
+        }
+        },
+        "SECTION_2": {
+        "TITLE": "Enlaces a otros sitios web",
+        "PARAGRAPHS": {
+            "ONE": "Nuestro Servicio puede contener enlaces a sitios web o servicios de terceros que no son propiedad ni están controlados por MauGarOla Portfolio.",
+            "TWO": "MauGarOla Portfolio no tiene control sobre, y no asume responsabilidad por, el contenido, las políticas de privacidad o las prácticas de ningún sitio web o servicio de terceros. Usted reconoce y acepta además que MauGarOla Portfolio no será responsable ni directa ni indirectamente, por cualquier daño o pérdida causados o presuntamente causados por o en conexión con el uso o la confianza en dicho contenido, bienes o servicios disponibles en o a través de cualquier sitio web o servicio de terceros.",
+            "THREE": "Le recomendamos encarecidamente que lea los términos y condiciones y las políticas de privacidad de cualquier sitio web o servicio de terceros que visite."
+        }
+        },
+        "SECTION_3": {
+        "TITLE": "Ley aplicable",
+        "PARAGRAPHS": {
+            "ONE": "Estos Términos se regirán e interpretarán de acuerdo con las leyes de [Su país], sin tener en cuenta sus disposiciones sobre conflicto de leyes."
+        }
+        },
+        "SECTION_4": {
+        "TITLE": "Cambios",
+        "PARAGRAPHS": {
+            "ONE": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, intentaremos proporcionar al menos 30 días de aviso antes de que entren en vigencia cualquier nuevo término. Lo que constituye un cambio material será determinado a nuestra entera discreción.",
+            "TWO": "Al continuar accediendo o utilizando nuestro Servicio después de que esas revisiones entren en vigencia, usted acepta quedar obligado por los términos revisados. Si no está de acuerdo con los nuevos términos, por favor deje de utilizar el Servicio."
+        }
+        },
+        "SECTION_5": {
+        "TITLE": "Contáctenos",
+        "PARAGRAPHS": {
+            "ONE": "Si tiene alguna pregunta sobre estos Términos, contáctenos en mau.gar.ola@hotmail.com ."
+        }
+        }
+    }
+}

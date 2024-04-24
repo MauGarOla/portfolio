@@ -1,0 +1,27 @@
+---
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import Personal from '../../components/Personal.astro';
+import PreFooter from '../../components/PreFooter.astro';
+import Projects from '../../components/Projects.astro';
+import Layout from '../../layouts/Layout.astro';
+import Bento from '../../components/Bento.astro';
+import { getI18N } from "../../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<Layout title={i18n.SEO_TITLE} 
+		description={i18n.SEO_DESCRIPTION}
+		keyword={i18n.SEO_KEYWORDS}
+		author="Mauricio G. Olagaray">
+	<section class="neumorphism-flat rounded-3xl overflow-hidden">
+		<Header />
+		<Personal />
+	</section>
+	<Bento />
+	<Projects />
+	<PreFooter />
+	<Footer />
+</Layout>

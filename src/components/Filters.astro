@@ -8,12 +8,15 @@ import JavaScript from "./logos/JavaScript.astro";
 import React from "./logos/React.astro";
 import Tailwind from "./logos/Tailwind.astro";
 import NoFilter from "./logos/NoFilter.astro";
-import MGO from "./logos/MGO.astro";
+import { getI18N } from "../i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
 ---
 <nav class="mt-12 mb-8 mx-5 text-site-300 flex gap-5 justify-center flex-wrap">
     <Filter class="hover:text-site-200 ">
         <NoFilter />
-        <h1>No filter</h1>
+        <h1>{i18n.PROJECTS.FILTER}</h1>
     </Filter>
     <Filter class="hover:text-[#E44D26] ">
         <Html />

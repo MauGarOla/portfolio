@@ -1,23 +1,4 @@
 ---
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import Personal from '../components/Personal.astro';
-import PreFooter from '../components/PreFooter.astro';
-import Projects from '../components/Projects.astro';
-import Layout from '../layouts/Layout.astro';
-import Bento from '../components/Bento.astro';
+import App from "../components/pages/App.astro"
 ---
-
-<Layout title="Mauricio G. Olagaray Portfolio" 
-		description="Welcome to Mau's Portfolio - showcasing coding skills. Explore a collection of programming projects, designs, and creations."
-		keyword="Mauricio G. Olagaray, Mau Gar Ola, Portfolio, Programming, Projects, Desings, Creations"
-		author="Mauricio G. Olagaray">
-	<section class="neumorphism-flat rounded-3xl overflow-hidden">
-		<Header />
-		<Personal />
-	</section>
-	<Bento />
-	<Projects />
-	<PreFooter />
-	<Footer />
-</Layout>
+<App />
