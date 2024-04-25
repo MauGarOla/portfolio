@@ -8,9 +8,9 @@ const i18n = getI18N({ currentLocale })
 ---
 <h1 class="neumorphism-pressed-text-sm text-center md:text-left text-6xl mt-24 font-bold text-site-300">{i18n.PROJECTS.TITLE}</h1>
 <Filters />
-<div class="projects neumorphism-flat rounded-3xl p-10 grid gap-10">
-    <Project title="Quote-Image" description="An inspirational quote image generator."/>
-    <Project title="Garage-Sale" description="Web to control your items at your garage sales."/>
+<div class="projects neumorphism-flat rounded-3xl md:grid p-5 md:gap-5 ">
+    <Project title="Quote-Image" description="An inspirational quote image generator." />
+    <Project title="Garage-Sale" description="Web to control your items at your garage sales." class="mb-0"/> <!-- Use margin 0 on the last item -->
     <!-- <Project title="Tic-tac-toe-Extrem" description="An advanced version of the classic tic-tac-toe game."/>
     <Project title="Sound-Maaker" description="A tool for create sound effects."/>
     <Project title="Tiny-Piano" description="A miniature virtual piano for practicing and enjoying music."/>
@@ -18,6 +18,6 @@ const i18n = getI18N({ currentLocale })
 </div>
 <style>
     .projects {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 </style>
