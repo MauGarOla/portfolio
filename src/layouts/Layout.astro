@@ -1,5 +1,8 @@
 ---
 import '@fontsource-variable/onest'
+import ViewTransitions from 'astro/components/ViewTransitions.astro';
+import DarkMode from '../components/DarkMode.tsx'
+import ThemeToggle from '../components/ThemeToggle.tsx'
 
 interface Props {
 	title: string;
@@ -22,6 +25,7 @@ const { currentLocale } = Astro
     	<meta name="author" content={author}>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<slot />
@@ -59,8 +63,8 @@ const { currentLocale } = Astro
 					inset -8px -8px 16px #17707a;
 	}
 	.neumorphism-pressed-toggle {
-		box-shadow: inset 2px 2px 6px #0d4148,
-					inset -2px -2px 6px #8ed1d8;
+		box-shadow: inset 1px 1px 2px #0d4148,
+					inset -1px -1px 2px #8ed1d8;
 	}
 	.neumorphism-flat-toggle {
 		box-shadow: 2px 2px 4px #0c3e45,
@@ -97,7 +101,84 @@ const { currentLocale } = Astro
 					inset -4px -4px 8px #17707a;
 		transform: scale(.94);
 	}
+	.neumorphism-flat-sm {
+		box-shadow:  4px 4px 8px #0f4a52,
+					-4px -4px 8px #17707a;
+    }
 	strong {
 		color: #f6fcc7;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		html {
+			background: #191919;
+			color: #ffffff;
+		}
+		.neumorphism-flat {
+			box-shadow:  8px 8px 16px #111111, 
+						-8px -8px 16px #232323; 
+		}
+		.neumorphism-concave {
+			background: linear-gradient(145deg, #1f1f1f, #222222); 
+			box-shadow: 8px 8px 16px #111111, 
+						8px 8px 16px #232323; 
+		}
+		.neumorphism-convex {
+			background: linear-gradient(145deg, #222222, #1f1f1f); 
+			box-shadow: 8px 8px 16px #111111, 
+						8px 8px 16px #232323; 
+		}
+		.neumorphism-pressed {
+			box-shadow: inset 8px 8px 16px #111111, 
+						inset -8px -8px 16px #232323; 
+		}
+		.neumorphism-pressed-toggle {
+			box-shadow: inset 1px 1px 2px #101010, 
+						inset -1px -1px 2px #555555; 
+		}
+		.neumorphism-flat-toggle {
+			box-shadow: 2px 2px 4px #101010, 
+						-2px -2px 4px #555555; 
+		}
+		.neumorphism-flat-text-lg {
+			text-shadow: -4px -4px 8px #232323, 
+						4px 4px 8px #111111; 
+		}
+		.neumorphism-flat-text-sm {
+			text-shadow: -2px -2px 6px #232323, 
+						2px 2px 6px #111111; 
+		}
+		.neumorphism-pressed-text-lg {
+			text-shadow: -4px -4px 8px #111111, 
+						4px 4px 8px #232323; 
+		}
+		.neumorphism-pressed-text-sm {
+			text-shadow: -2px -2px 6px #111111, 
+						2px 2px 6px #232323; 
+		}
+		a.neumorphism-flat-sm {
+			box-shadow:  4px 4px 8px #111111, 
+						-4px -4px 8px #232323; 
+			transition: all 0.5s ease-out;
+		}
+		a.neumorphism-flat-sm:hover {
+			box-shadow:  1px 1px 2px #111111, 
+						-1px -1px 2px #232323; 
+			transform: scale(.97);
+		}
+		a.neumorphism-flat-sm:active {
+			box-shadow: inset 4px 4px 8px #111111, 
+						inset -4px -4px 8px #232323; 
+			transform: scale(.94);
+		}
+		.neumorphism-flat-sm {
+		box-shadow:  4px 4px 8px #111111,
+					-4px -4px 8px #232323;
+		}
+		strong {
+			color: #f6fcc7;
+		}
+
+	}
+
 </style>

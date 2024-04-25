@@ -2,16 +2,25 @@
 import Moon from './logos/Moon.astro'
 import Sun from './logos/Sun.astro'
 ---
-<label for="darkModeToggle" class="flex items-center cursor-pointer">
-    <h3 class="mr-3 text-site-200">
-        <Sun />
-    </h3>
-    <section class="relative">
-      <input id="darkModeToggle" type="checkbox" class="hidden" />
-      <figure class="toggle__line w-10 h-4 neumorphism-pressed-toggle bg-site-300 rounded-full"></figure>
-      <figure class="toggle__dot absolute size-6 bg-site-200 neumorphism-flat-toggle rounded-full left-0 -top-1"></figure>
-    </section>
-    <h3 class="ml-3">
-        <Moon />
-    </h3>
-  </label>
+<label id="theme-selector" class="inline-flex items-center cursor-pointer">
+  <h3 class="mr-3 text-site-200 dark:text-site-300">
+    <Sun />
+  </h3>
+  <input type="checkbox" value="" class="sr-only peer">
+  <figure class="neumorphism-pressed-toggle relative w-14 h-8 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-site-200 dark:peer-focus:ring-site-200 rounded-full peer dark:bg-[#232323] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-site-300 dark:peer-checked:after:border-[#232323] after:content-[''] after:absolute after:top-[4px] after:start-[6px] after:bg-site-300 dark:after:bg-[#232323] after:border-site-300 dark:after:border-site-300 after:border after:rounded-full after:w-6 after:h-6 after:transition-all dark:border-[#232323] peer-checked:bg-site-200"></figure>
+  <h3 class="ml-3 dark:text-site-200">
+    <Moon />
+  </h3>
+</label>
+
+<script>
+  document.getElementById('theme-selector')?.addEventListener('click', () => {
+    if (localStorage.theme === 'dark') {
+      localStorage.theme = 'light';
+      document.documentElement.classList.remove('dark');
+    } else {
+      localStorage.theme = 'dark';
+      document.documentElement.classList.add('dark');
+    }
+  });
+</script>
