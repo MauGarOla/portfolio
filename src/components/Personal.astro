@@ -6,7 +6,7 @@ import { getI18N } from "../i18n"
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
-<main class="neuphormism-flat mx-auto p-10 block md:grid md:grid-cols-2 lg:gap-y-5 ">
+<main class="neuphormism-flat mx-auto p-10 block md:grid md:grid-cols-2 gap-y-5 lg:gap-y-12 ">
     <PersonalPicture class="neumorphism-concave mx-auto md:m-auto my-6 size-64 md:size-80 p-3 rounded-full"/>
     <section class="m-auto md:pr-12 lg:row-span-2">
         <h2 class="neumorphism-pressed-text-sm text-site-300 text-4xl lg:text-5xl font-bold text-center tracking-widest md:text-right">{i18n.PERSONAL.TITLE}</h2>
