@@ -12,3 +12,30 @@ import Sun from './logos/Sun.astro'
     <Moon />
   </h3>
 </label>
+<script>
+    enum DarkMode {
+        Light = 'light',
+        Dark = 'dark'
+    }
+  
+    function toggleDarkMode() {
+        const darkMode = document.getElementById('dark-mode') as HTMLInputElement;
+  
+        if (darkMode.checked) {
+            localStorage.theme = DarkMode.Dark;
+            document.documentElement.classList.add('dark');
+        } else {
+            localStorage.theme = DarkMode.Light;
+            document.documentElement.classList.remove('dark');
+        }
+    }
+  
+    const darkMode = document.getElementById('dark-mode') as HTMLInputElement;
+    darkMode.addEventListener('change', toggleDarkMode);
+  
+    const savedTheme = localStorage.theme;
+    if (savedTheme === DarkMode.Dark) {
+        darkMode.checked = true;
+        document.documentElement.classList.add('dark');
+    }
+</script>
