@@ -5,7 +5,7 @@ import { getI18N } from "../i18n"
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
-<h1 class="neumorphism-pressed-text-sm text-6xl text-center md:text-left mt-24 font-bold text-site-300">{i18n.ABOUT_ME.TITLE}</h1>
+<h1 class="neumorphism-pressed-text-sm text-6xl text-center md:text-left mt-24 font-bold text-site-300 dark:text-site-50">{i18n.ABOUT_ME.TITLE}</h1>
 <section class="bento w-full grid grid-cols-12 gap-6 mx-auto mt-12 sm:text-lg lg:text-3xl">
     <BentoItem class="col-span-5 row-span-1 bg-site-300 text-site-600 lg:col-span-8 lg:row-span-1" title={i18n.ABOUT_ME.BENTO_1.TITLE}>
         <p slot="content">{i18n.ABOUT_ME.BENTO_1.PARAGRAPHS}</p>
