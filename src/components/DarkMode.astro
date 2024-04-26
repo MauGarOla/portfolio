@@ -2,7 +2,7 @@
 import Moon from './logos/Moon.astro'
 import Sun from './logos/Sun.astro'
 ---
-<label class="inline-flex items-center cursor-pointer">
+<!-- <label class="inline-flex items-center cursor-pointer">
   <h3 class="mr-3 text-site-200 dark:text-site-50">
     <Sun />
   </h3>
@@ -11,8 +11,9 @@ import Sun from './logos/Sun.astro'
   <h3 class="ml-3 dark:text-site-200">
     <Moon />
   </h3>
-</label>
-
+</label> -->
+<input type="checkbox" value="" class="sr-only peer" id="dark-mode" />
+<label for="dark-mode">Toggle</label>
 <script>
   enum DarkMode {
       Light = 'light',
