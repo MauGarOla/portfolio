@@ -21,6 +21,9 @@ const { currentLocale } = Astro
 		<meta name="description" content={description} />
 		<meta name="keywords" content={keyword}>
     	<meta name="author" content={author}>
+		<meta property="og:title" content={title}>
+    	<meta property="og:description" content={description}>
+    	<meta property="og:image" content="https://media.licdn.com/dms/image/D4D03AQGWG3sSfjMW4Q/profile-displayphoto-shrink_800_800/0/1688111944665?e=2147483647&v=beta&t=BA2ifaRQkmDREptKM9nsjoZHVP4rTsfsy0M7jAQLPQU">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
 		<ViewTransitions />
