@@ -1,7 +1,8 @@
 ---
+import { Image } from 'astro:assets'
 import MauGarOla from '../assets/MauGarOla.webp'
 ---
 
 <figure {...Astro.props}>
-    <img class="rounded-full origin-bottom scale-110" src={MauGarOla.src} alt="Photo of Mauricio G. Olagary smilin in a dark-blue suit.">
+    <Image class="rounded-full origin-bottom scale-110" src={MauGarOla} alt="Photo of Mauricio G. Olagary smilin in a dark-blue suit." />
 </figure>
